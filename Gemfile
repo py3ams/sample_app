@@ -10,11 +10,18 @@ gem 'rake', '0.8.7'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
+  gem 'ZenTest'
+  gem 'term-ansicolor'
+  gem 'turn'
 end
 
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem 'ZenTest'
+  gem 'term-ansicolor'
+  gem 'turn'
+  gem 'spork','0.9.0.rc8'
 end
 
 # Use unicorn as the web server
