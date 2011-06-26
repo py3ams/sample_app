@@ -22,6 +22,8 @@ group :test do
   gem 'term-ansicolor'
   gem 'turn'
   gem 'spork','0.9.0.rc8'
+  # spork doesn't work with this gem.
+  #  gem 'redgreen'
 end
 
 # Use unicorn as the web server
