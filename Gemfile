@@ -26,6 +26,7 @@ group :test do
   gem 'spork','0.9.0.rc8'
   # spork doesn't work with this gem.
   #  gem 'redgreen'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # Use unicorn as the web server
